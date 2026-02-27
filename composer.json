@@ -1,0 +1,14 @@
+{
+  "name": "bnc/social-network",
+  "description": "Professional social network SaaS in native PHP 8 MVC",
+  "type": "project",
+  "require": {
+    "php": ">=8.1",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
